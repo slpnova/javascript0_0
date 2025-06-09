@@ -1,0 +1,64 @@
+<!-- <!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>AJAX Örneği</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    #kullanici { margin-top: 20px; }
+    .card {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>AJAX ile Kullanıcı Getir</h1>
+  <button id="getirBtn">Kullanıcıyı Getir</button>
+
+  <div id="kullanici"></div>
+
+  <script>
+    document.getElementById("getirBtn").addEventListener("click", function() {
+      fetch("https://jsonplaceholder.typicode.com/users/1")
+        .then(response => response.json())
+        .then(data => {
+          const div = document.getElementById("kullanici");
+          div.innerHTML = `
+            <div class="card">
+              <h2>${data.name}</h2>
+              <p><strong>Email:</strong> ${data.email}</p>
+              <p><strong>Telefon:</strong> ${data.phone}</p>
+              <p><strong>Şirket:</strong> ${data.company.name}</p>
+            </div>
+          `;
+        })
+        .catch(error => {
+          console.error("Bir hata oluştu:", error);
+        });
+    });
+  </script>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>AJAX Dersi</title>
+</head>
+<body>
+
+  <h1>AJAX ile Kullanıcı Bilgisi Getirme</h1>
+  
+  <button id="veriGetir">Kullanıcıyı Getir</button>
+
+  <div id="sonuc"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
