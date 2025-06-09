@@ -10,7 +10,7 @@
 6. [06.Veri Tipleri](./7.%20Veri%20Tipleri)
 7. [07.Diyalog kutuları](./8.Diyalog%20kutuları)
 8. [08.Koşul Yapıları](./9.Koşul%20Yapıları)
-9. [09.Koşul Yapıları 2](./10.Koşul%20Yapıları)
+9. [09.Koşul Yapıları 2](./10.Koşul%20Yapıları) 
 10. [10.benzin](./11.benzin)
 11. [11.switch-case](./12.switch-case)
 12. [12.atm uygulaması](./13.atm%20uygulaması)
